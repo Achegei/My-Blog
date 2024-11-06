@@ -8,7 +8,7 @@
     <h1>All Posts</h1>
   </div>
   <div class="col-md-2">
-    <a href="{{'posts.create'}}" class=" btn btn-lg btn-block btn-primary">Create New Post</a>
+    <a href="{{route('posts.create')}}" class=" btn btn-lg btn-block btn-primary">Create New Post</a>
   </div>
   <hr>
 </div> <!---end of row---->
