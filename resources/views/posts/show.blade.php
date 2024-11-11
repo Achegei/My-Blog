@@ -32,6 +32,12 @@
             @method('DELETE')
             <button type="submit" class="btn btn-danger btn-block">Delete</button>
           </form>
+          <div class="row">
+            <div class="col-md-12">
+              <a href="{{route('posts.index')}}" class="btn btn-success btn-block">....Show All Posts</a>
+            </div>
+          </div>
+       
         </div>
       </div>
   </div>
